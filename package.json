@@ -54,5 +54,10 @@
     "run-sequence": "^1.1.2",
     "traverse": "^0.6.6",
     "wiredep": "^4.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
   }
 }

@@ -2,7 +2,9 @@
   "dependencies": {
     "main.js": {
       "files": [
-        "scripts/main.js"
+        "scripts/main.js",
+        "../node_modules/bootstrap/dist/js/bootstrap.js"
+
       ],
       "main": true
     },
@@ -19,6 +21,11 @@
     },
     "jquery.js": {
       "bower": ["jquery"]
+    },
+    "popper.js": {
+      "files": [
+        "../node_modules/popper.js/dist/umd/popper.js"
+      ]
     }
   },
   "config": {

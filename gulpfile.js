@@ -237,7 +237,8 @@ gulp.task('images', function() {
 gulp.task('jshint', function() {
   return gulp.src([
     'bower.json', 'gulpfile.js'
-  ].concat(project.js))
+  ].concat(project.js)
+  .concat('!node_modules/**'))
     .pipe(jshint())
     .pipe(jshint.reporter('jshint-stylish'))
     .pipe(gulpif(enabled.failJSHint, jshint.reporter('fail')));
